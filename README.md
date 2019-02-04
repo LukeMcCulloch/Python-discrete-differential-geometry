@@ -2,4 +2,4 @@
 
 Discrete Differential Geometry Processing in Python
 
-[Here is the documentation](https://python-discrete-differential-geometry.readthedocs.io/)
+[Here is where the documentation will go.](https://python-discrete-differential-geometry.readthedocs.io/)
