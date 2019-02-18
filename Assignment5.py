@@ -1125,8 +1125,8 @@ if __name__ == """__main__""":
     # plane_large
     # f-16
     #"""
-    mesh, meshDisplay = main(inputfile='../meshes/test-torus.ply',
-    #mesh, meshDisplay = main(inputfile='../meshes/sphere_small.obj',
+    #mesh, meshDisplay = main(inputfile='../meshes/test-torus.ply',
+    mesh, meshDisplay = main(inputfile='../meshes/sphere_small.obj',
                              show=True,
                              StaticGeometry=True,
                              partString='part3',
