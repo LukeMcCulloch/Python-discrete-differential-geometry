@@ -1184,7 +1184,11 @@ if __name__ == "__main__":
     # f-16
     #"""
     #mesh, meshDisplay = main(inputfile='../meshes/test-torus.ply',
+<<<<<<< HEAD
     mesh, meshDisplay = main(inputfile='../meshes/torus.obj',
+=======
+    mesh, meshDisplay = main(inputfile='../meshes/bunny.obj',
+>>>>>>> b35d1ad0ad619662d013c6ab99c0646214a63dd2
                              show=True,
                              StaticGeometry=False,
                              partString='part2')
