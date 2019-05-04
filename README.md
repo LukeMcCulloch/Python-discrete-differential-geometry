@@ -9,7 +9,7 @@ and
 [pdf discrete differential geometry book](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/)
 for starters.  
 
-To run these little python demos, you will need methes, e.g. the Standord bunny. 
+To run these little python demos, you will need methes, e.g. the Stanford bunny. 
 For testing my code, it's easiest to pull my mesh repo and situate them together at the same level in a directory.
 "My" meshes are [here](https://github.com/LukeMcCulloch/meshes.git)
 
