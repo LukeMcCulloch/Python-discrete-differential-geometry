@@ -14,3 +14,42 @@ For testing my code, it's easiest to pull my mesh repo and situate them together
 "My" meshes are [here](https://github.com/LukeMcCulloch/meshes.git)
 
 [TODO: document in depth here.](https://python-discrete-differential-geometry.readthedocs.io/)
+
+
+# Installation
+
+Requirements beyond NumPy, SciPy, Matplotlib:
+
+pip install euclid
+pip install plyfile
+pip install pyOpenGL
+
+pyOpenGL GLUT issue:
+    https://stackoverflow.com/questions/26700719/pyopengl-glutinit-nullfunctionerror
+
+    Linux Users can just install glut using the following command:
+
+    $ sudo apt-get install freeglut3-dev
+
+
+Most critical, you need suitsparse for fast inversion of sparse matrices 
+in order to take advantage of some of the solver forumulations:
+
+get an up to date suitsparse [here](https://pythonhosted.org/scikit-sparse/overview.html)
+    
+    Installing scikit-sparse requires:
+
+    Python
+    NumPy
+    SciPy
+    Cython
+    CHOLMOD
+
+On Debian/Ubuntu systems, the following command should suffice:
+
+    $ apt-get install python-scipy libsuitesparse-dev
+
+
+    Then just:
+
+    $ pip install --user scikit-sparse

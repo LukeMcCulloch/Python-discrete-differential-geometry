@@ -7,6 +7,10 @@ Created on Mon Feb 18 16:34:43 2019
 """
 
 """
+# Installation
+
+Requirements beyond NumPy, SciPy, Matplotlib:
+
 pip install euclid
 pip install plyfile
 pip install pyOpenGL
@@ -19,9 +23,10 @@ pyOpenGL GLUT issue:
     $ sudo apt-get install freeglut3-dev
 
 
-Most critical:
-suitsparse up to date link:
-    https://pythonhosted.org/scikit-sparse/overview.html
+Most critical, you need suitsparse for fast inversion of sparse matrices 
+in order to take advantage of some of the solver forumulations:
+
+get an up to date suitsparse [here](https://pythonhosted.org/scikit-sparse/overview.html)
     
     Installing scikit-sparse requires:
 
@@ -36,11 +41,7 @@ On Debian/Ubuntu systems, the following command should suffice:
     $ apt-get install python-scipy libsuitesparse-dev
 
 
-Then just:
-    
-Installation
-
-As usual,
+    Then just:
 
     $ pip install --user scikit-sparse
 
