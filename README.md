@@ -13,4 +13,4 @@ To run these little python demos, you will need methes, e.g. the Stanford bunny.
 For testing my code, it's easiest to pull my mesh repo and situate them together at the same level in a directory.
 "My" meshes are [here](https://github.com/LukeMcCulloch/meshes.git)
 
-[TODO: document here.](https://python-discrete-differential-geometry.readthedocs.io/)
+[TODO: document in depth here.](https://python-discrete-differential-geometry.readthedocs.io/)
