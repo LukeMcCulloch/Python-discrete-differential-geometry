@@ -42,14 +42,18 @@ get an up to date suitsparse [here](https://pythonhosted.org/scikit-sparse/overv
     Python
     NumPy
     SciPy
-    Cython
     CHOLMOD
 
 On Debian/Ubuntu systems, the following command should suffice:
 
     $ apt-get install python-scipy libsuitesparse-dev
-
-
     Then just:
-
     $ pip install --user scikit-sparse
+    
+Now you might want my meshes to run the assignments with the meshes 
+stipulated in the inputs:
+
+git clone https://github.com/LukeMcCulloch/meshes.git
+
+
+That's it!
